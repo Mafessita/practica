@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
         var tablaJS = document.getElementById("tablaJS");
 
         for (var i = 0; i < 4; i++) {
-            var fila = tablaJS.insertRow(i);
+            var row = tablaJS.insertRow(i);
             
             for (var j = 0; j < 4; j++) {
-                var celda = fila.insertCell(j);
+                var celda = row.insertCell(j);
 
                     if (i == 0 && j == 0) {
                         var img = document.createElement("img");
